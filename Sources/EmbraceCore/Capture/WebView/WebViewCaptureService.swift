@@ -10,7 +10,7 @@ import EmbraceOTelInternal
 import EmbraceCaptureService
 import EmbraceSemantics
 import OpenTelemetryApi
-import EmbraceObjCUtilsInternal
+@_implementationOnly import EmbraceObjCUtilsInternal
 
 /// Service that generates OpenTelemetry span events when a `WKWebView` loads an URL or throws an error.
 @objc(EMBWebViewCaptureService)

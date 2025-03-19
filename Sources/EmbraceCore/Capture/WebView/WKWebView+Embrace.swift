@@ -3,7 +3,7 @@
 //
 
 #if canImport(WebKit)
-import EmbraceObjCUtilsInternal
+@_implementationOnly import EmbraceObjCUtilsInternal
 import Foundation
 import WebKit
 

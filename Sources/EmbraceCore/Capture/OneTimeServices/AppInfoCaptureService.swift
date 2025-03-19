@@ -5,7 +5,7 @@
 import Foundation
 import EmbraceCommonInternal
 import OpenTelemetryApi
-import EmbraceObjCUtilsInternal
+@_implementationOnly import EmbraceObjCUtilsInternal
 
 class AppInfoCaptureService: ResourceCaptureService {
 

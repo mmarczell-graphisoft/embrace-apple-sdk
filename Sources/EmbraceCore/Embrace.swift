@@ -8,7 +8,7 @@ import EmbraceConfigInternal
 import EmbraceOTelInternal
 import EmbraceStorageInternal
 import EmbraceUploadInternal
-import EmbraceObjCUtilsInternal
+@_implementationOnly import EmbraceObjCUtilsInternal
 
 /**
  Main class used to interact with the Embrace SDK.

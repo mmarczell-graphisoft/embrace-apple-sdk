@@ -7,7 +7,7 @@ import OpenTelemetryApi
 import EmbraceCaptureService
 import EmbraceCommonInternal
 import EmbraceOTelInternal
-import EmbraceObjCUtilsInternal
+@_implementationOnly import EmbraceObjCUtilsInternal
 import EmbraceSemantics
 
 extension Notification.Name {

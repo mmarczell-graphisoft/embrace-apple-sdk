@@ -4,7 +4,7 @@
 
 import Foundation
 import EmbraceCommonInternal
-import EmbraceObjCUtilsInternal
+@_implementationOnly import EmbraceObjCUtilsInternal
 import OpenTelemetrySdk
 
 class DeviceInfoCaptureService: ResourceCaptureService {

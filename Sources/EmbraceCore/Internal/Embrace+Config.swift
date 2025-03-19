@@ -3,7 +3,7 @@
 //
 
 import Foundation
-import EmbraceObjCUtilsInternal
+@_implementationOnly import EmbraceObjCUtilsInternal
 import EmbraceConfigInternal
 import EmbraceCommonInternal
 import EmbraceConfiguration

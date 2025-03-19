@@ -5,7 +5,7 @@
 import Foundation
 import EmbraceCaptureService
 import EmbraceCommonInternal
-import EmbraceObjCUtilsInternal
+@_implementationOnly import EmbraceObjCUtilsInternal
 
 typealias URLSessionCompletion = (Data?, URLResponse?, Error?) -> Void
 typealias DownloadTaskCompletion = (URL?, URLResponse?, Error?) -> Void

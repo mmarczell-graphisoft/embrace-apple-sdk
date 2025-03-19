@@ -5,7 +5,7 @@
 import Foundation
 import EmbraceStorageInternal
 import EmbraceCommonInternal
-import EmbraceObjCUtilsInternal
+@_implementationOnly import EmbraceObjCUtilsInternal
 
 struct AppInfoPayload: Codable {
     var buildID: String?

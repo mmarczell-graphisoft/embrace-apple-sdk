@@ -3,7 +3,7 @@
 //
 
 import EmbraceStorageInternal
-import EmbraceObjCUtilsInternal
+@_implementationOnly import EmbraceObjCUtilsInternal
 import EmbraceCommonInternal
 import EmbraceSemantics
 
